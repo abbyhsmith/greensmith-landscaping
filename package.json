@@ -1,0 +1,57 @@
+{
+	"name": "greensmith-landscaping",
+	"version": "0.0.1",
+	"description": "Company site for Greensmith Landscaping",
+	"homepage": "https://github.com/abbyhsmith/greensmith-landscaping",
+	"license": "UNLICENSED",
+	"private": true,
+	"author": {
+		"name": "Abby Smith",
+		"email": "smitha9294@gmail.com",
+		"url": "https://www.abbysmith.dev/"
+	},
+	"main": "index.jsx",
+	"scripts": {
+		"dev": "webpack serve --config webpack.dev.js --open",
+		"build": "webpack --config webpack.prod.js"
+	},
+	"babel": {
+		"presets": [
+			"@babel/preset-env",
+			"@babel/preset-react"
+		]
+	},
+	"browserslist": [
+		"defaults"
+	],
+	"dependencies": {
+		"classnames": "^2.3.2",
+		"prop-types": "^15.8.1",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.19.0",
+		"@babel/preset-env": "^7.19.0",
+		"@babel/preset-react": "^7.18.6",
+		"autoprefixer": "^10.4.9",
+		"babel-loader": "^8.2.5",
+		"clean-webpack-plugin": "^4.0.0",
+		"css-loader": "^6.7.1",
+		"css-minimizer-webpack-plugin": "^4.1.0",
+		"eslint": "^8.23.1",
+		"eslint-plugin-compat": "^4.0.2",
+		"eslint-plugin-react": "^7.31.8",
+		"eslint-plugin-react-hooks": "^4.6.0",
+		"html-webpack-plugin": "^5.5.0",
+		"mini-css-extract-plugin": "^2.6.1",
+		"postcss-loader": "^7.0.1",
+		"sass": "^1.54.9",
+		"sass-loader": "^13.0.2",
+		"style-loader": "^3.3.1",
+		"webpack": "^5.74.0",
+		"webpack-cli": "^4.10.0",
+		"webpack-dev-server": "^4.11.0",
+		"webpack-merge": "^5.8.0"
+	}
+}
