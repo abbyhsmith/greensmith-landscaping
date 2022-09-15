@@ -4,7 +4,7 @@ import './styles.scss'
 const Services = () => {
     return(
         <div className='services section' id='services'>
-            <h1>Available Services</h1>
+            <h2>Available Services</h2>
             <ul>
                 <li>Mowing</li>
                 <li>Bush trimming</li>

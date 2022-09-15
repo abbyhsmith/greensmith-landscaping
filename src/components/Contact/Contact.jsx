@@ -4,10 +4,10 @@ import './styles.scss'
 const Contact = () => {
     return(
         <div className='contact section' id='contact'>
-            <h1>Contact</h1>
+            <h2>Contact</h2>
             <ul className='contactInfo'>
                 <li>
-                    <tel>(585) 203-7011</tel>
+                    <a href='tel:+15852037011'>(585) 203-7011</a>
                 </li>
                 <li>
                     <a href="https://facebook.com/greensmithlandscaping" target="_blank">Facebook</a>

@@ -2,23 +2,38 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.05em;
+}
+
+:root {
+    --dark-green: #3F9E3D;
+}
+
+html {
+    background-color: var(--dark-green);
 }
 
 .body {
-    font-size: 14px;
+    font-size: 18px;
     margin: 0 auto;
     max-width: 1000px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: #FFFFFF;
 }
 
 .section {
     margin: 20px auto;
+    padding: 0 50px;
 }
 
-h1 {
+h2 {
     font-size: 24px;
+    text-align: center;
+    padding: 15px;
+    color: var(--dark-green);
 }
 
 a {

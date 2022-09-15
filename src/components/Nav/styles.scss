@@ -1,7 +1,24 @@
 nav {
+    background-color: #FFFFFF;
+    font-size: 20px;
+    border-top: 2px solid green;
+    border-bottom: 2px solid green;
     ul {
         display: flex;
         justify-content: space-evenly;
+        text-align: center;
         list-style-type: none;
+        li {
+            padding: 15px;
+            a {
+                color: green;
+            }
+            &:hover {
+                background-color: green;
+                a {
+                    color: #FFFFFF;
+                }
+            }
+        }
     }
 }
