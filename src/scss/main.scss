@@ -25,15 +25,18 @@ html {
 }
 
 .section {
-    margin: 20px auto;
-    padding: 0 50px;
+    padding: 20px 0;
+    margin-bottom: 20px;
 }
 
 h2 {
+    margin: 0 auto;
+    margin-bottom: 20px;
     font-size: 24px;
     text-align: center;
-    padding: 15px;
+    padding: 25px 0;
     color: var(--dark-green);
+    background-color: black;
 }
 
 a {
