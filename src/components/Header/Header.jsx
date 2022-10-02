@@ -4,7 +4,7 @@ import './styles.scss'
 const Header = () => {
     return(
         <div className='header'>
-            <h1>Greensmith Landscaping</h1>
+            <img src='../../img/logo.png' />
         </div>
     )
 }

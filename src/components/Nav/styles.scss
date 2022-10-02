@@ -1,24 +1,22 @@
 nav {
-    background-color: #FFFFFF;
-    font-size: 20px;
-    border-top: 2px solid green;
-    border-bottom: 2px solid green;
-    margin-bottom: -20px;
+    background-color: #555555;
+    font-size: 16px;
+    display: flex;
+    justify-content: flex-end;
     ul {
         display: flex;
         justify-content: space-evenly;
         text-align: center;
         list-style-type: none;
+        width: 700px;
         li {
             padding: 15px;
+            width: 100%;
             a {
-                color: green;
+                color: #FFFFFF;
             }
             &:hover {
-                background-color: green;
-                a {
-                    color: #FFFFFF;
-                }
+                background-color: #777777;
             }
         }
     }

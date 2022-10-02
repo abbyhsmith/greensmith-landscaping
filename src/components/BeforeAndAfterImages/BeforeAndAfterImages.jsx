@@ -7,7 +7,7 @@ const BeforeAndAfterImages = () => {
     return(
         <div className='section' id='beforeAndAfterImages'>
             <h2>Before & After Images</h2>
-            <Carousel infiniteLoop={true} className='carouselDiv' >
+            <Carousel infiniteLoop={true} className='carouselDiv content' >
                 <div>
                     <img src='../img/beforeandafter1.png' />
                 </div>

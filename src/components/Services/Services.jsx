@@ -5,7 +5,7 @@ const Services = () => {
     return(
         <div className='services section' id='services'>
             <h2>Available Services</h2>
-            <div className='serviceList'>
+            <div className='serviceList content'>
                 <ul>
                     <li>Mowing</li>
                     <li>Bush trimming</li>
